@@ -9,4 +9,14 @@ suma = 0
 for i in result:
     suma += i
 
-print(suma)
+min = result[0]
+for i in result:
+    if i < min:
+        min = i
+
+max = 0
+for i in result:
+    if i > max:
+        max = i
+
+print(f'min: {min}, max: {max}')
