@@ -9,4 +9,6 @@ suma = 0
 for i in result:
     suma += i
 
-print(suma)
+average = suma / len(result)
+
+print(f"suma: {suma}, average: {average}")
