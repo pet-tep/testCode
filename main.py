@@ -5,4 +5,8 @@ result = []
 for i in array:
     result += [int(i)]
 
-print(result)
+suma = 0
+for i in result:
+    suma += i
+
+print(suma)
